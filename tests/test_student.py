@@ -16,7 +16,7 @@ def test_correct_atributes_when_instantiating_class():
 
 def test_default_class_attribute_class_empty_list():
     # Arrange
-    name = "Natalia"
+    name = "Lina"
     grade = "Senior"
     classes_list = []
 
