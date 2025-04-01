@@ -18,7 +18,7 @@ def test_default_class_attribute_class_empty_list():
     # Arrange
     name = "Natalia"
     grade = "Senior"
-    # classes_list = []
+    classes_list = []
 
     # Act
     student = Student(name, grade)
@@ -26,7 +26,7 @@ def test_default_class_attribute_class_empty_list():
     # Assert
     assert student.name == name
     assert student.grade == grade
-    assert student.classes == []
+    assert student.classes == classes_list
 
 def test_add_class_increses_classes_attribute_length():
     # Arrange
